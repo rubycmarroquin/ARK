@@ -1,0 +1,79 @@
+set_immediate #31
+add_immediate #1
+move #1
+add_immediate #31
+add_immediate #1
+move #0
+set_memory #0
+move #2
+xor_register #1
+move #3
+set_immediate #0
+move #4
+add_immediate #9
+move #5
+set_immediate #31
+add_immediate #31
+add_immediate #2
+move #6
+add_immediate #10
+move #7
+set_register #3
+move #8
+set_memory #6
+xor_register #8
+left_shift
+right_shift
+not_equal_register #1
+jump #11
+set_register #4
+set_LUT
+move #9 
+and_register #8 
+reduced_xor 
+move #10 
+set_register #8
+left_shift
+or_register #10
+move #8
+set_register #6
+add_immediate #1
+move #6
+not_equal_register #7
+jump #12
+set_immediate #0
+move #11
+set_register #0
+move #12 
+add_immediate #0
+move #13
+set_register #3
+move #8
+set_memory #12
+xor_register #8
+left_shift
+right_shift
+store #11
+set_register #8
+left_shift
+move #14
+set_register #8
+and_register #9
+reduced_xor
+or_register #14
+move #8
+set_register #12
+add_immediate #1
+move #12
+set_register #11
+add_immediate #1
+move #11
+not_equal_register #0
+jump #13
+done
+set_register #4
+add_immediate #1
+move #4
+not_equal_register #5
+jump #14
+done
