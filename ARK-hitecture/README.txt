@@ -11,7 +11,7 @@ The name of our architecture is called ARK and we want to make an
 accumulator microprocessor. We chose the accumulator architecture 
 because it is the most intuitive out of all the architectures for 
 students to grasp. Our goal is to create a microcontroller that will
-pass all three programs by Lab 4 so that we can get an A in the class.
+pass all three programs by the autograder.
 
 
 Design
